@@ -1,50 +1,10 @@
 import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
-import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
+import { Inter } from "next/font/google";
+import LocalFont from "next/font/local";
+import { Button } from '@/app/components/button';
+import { signOut } from '@/auth';
+import Particles from "./components/particles";
 
-export const metadata: Metadata = {
-  title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
-  },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
-  openGraph: {
-    title: "chronark.com",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
-    images: [
-      {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
-    locale: "en-US",
-    type: "website",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
-  },
-  icons: {
-    shortcut: "/favicon.png",
-  },
-};
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -63,12 +23,23 @@ export default function RootLayout({
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
-        <Analytics />
       </head>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
+
+        <form
+          action={async () => {
+            'use server';
+            await signOut();
+          }}>
+          <Button className={`absolute top-5 right-5`}>Next</Button>
+        </form>      
+        <Particles
+        className="absolute inset-0 -z-10 animate-fade-in"
+        quantity={100}
+        />
         {children}
       </body>
     </html>
