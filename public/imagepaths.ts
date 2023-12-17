@@ -1,0 +1,17 @@
+export enum pictures {
+    anna = "/anna.jpg",
+    anna2 = "/anna2.jpg",
+    benz = "/benz.jpg",
+    benz2 = "/benz2.jpg",
+    christoph = "/christoph.jpg",
+    claudi = "/claudi.jpg",
+    claudi2 = "/claudi (1).jpg",
+    felix = "/felix.jpg",
+    fine = "/fine.jpg",
+    max = "/max.jpg",
+    pauli = "/pauli.jpg",
+    philo = "/philo.jpg",
+    philo2 = "/philo3.jpg",
+    vibbs = "/vera.jpg",
+    vibbs2 = "/vibbs.jpg",
+}

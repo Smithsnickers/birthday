@@ -15,29 +15,35 @@ const calSans = LocalFont({
   variable: "--font-calsans",
 });
 
+const cutiveMono = LocalFont({
+  src: "../public/fonts/CutiveMono-Regular.ttf",
+  variable: "--font-cutive-mono",
+});
+
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="en" className={[inter.variable, calSans.variable, cutiveMono.variable].join(" ")}>
       <head>
       </head>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
-
+        
         <form
           action={async () => {
             'use server';
             await signOut();
           }}>
-          <Button className={`absolute top-5 right-5`}>Next</Button>
+          <Button className={`absolute top-5 right-5`}>Logout</Button>
         </form>      
         <Particles
-        className="absolute inset-0 -z-10 animate-fade-in"
+        className="fixed inset-0 -z-10 animate-fade-in"
         quantity={100}
         />
         {children}
