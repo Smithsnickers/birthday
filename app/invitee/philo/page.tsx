@@ -11,14 +11,14 @@ export default function philoPage() {
       <div className="flex flex-col"> 
         <Intro></Intro>
         <div className="flex flex-col mt-40">
-          <span className="flex w-full flex-col items-center w-full font-mono md:text-4xl text-white text-center">            
-            <h1 className="flex font-display sm:text-6xl md:text-9xl bg-clip-text text-white">
+          <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
+            <h1 className="flex font-display text-9xl bg-clip-text text-white">
             &#9733; Philo &#9733;
             </h1>
           </span>
         </div>
         <div className="flex justify-center mt-40 bg-white">
-          <p className="flex font-mono w-3/4 md:text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
             Hey Philo,
             <br/>
             ich weiß nicht. 
@@ -57,7 +57,7 @@ export default function philoPage() {
         <div className="flex flex-col justify-center bg-white">        
         <iframe className="self-center" width="560" height="315" src="https://www.youtube.com/embed/qU9mHegkTc4?si=fG1IVFNS1tXf_A1m&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           <br/>
-          <p className="flex font-mono w-3/4 md:text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
             Ich hab für dich 505 von Arctic Monkeys. 
             Es ist einfach auch ein Teil der immer bleiben wird. 
             Wir haben gemeinsam neue Musik erkundet ausprobiert. 

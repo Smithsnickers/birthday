@@ -9,14 +9,14 @@ export default function christophPage() {
       <div className="flex flex-col"> 
         <Intro></Intro>
         <div className="flex flex-col mt-40">
-          <span className="flex w-full flex-col items-center w-full font-mono md:text-4xl text-white text-center">            
-            <h1 className="flex font-display sm:text-6xl md:text-9xl bg-clip-text text-white">
+          <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
+            <h1 className="flex font-display text-9xl bg-clip-text text-white">
             &#9733; Christoph &#9733;
             </h1>
           </span>
         </div>
         <div className="flex justify-center mt-40 bg-white">
-          <p className="flex font-mono w-3/4 md:text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
             Okay, 
             <br/>
             ich kann gerade kaum sitzen da gerade Blümchen in Schleife läuft. 
@@ -38,7 +38,7 @@ export default function christophPage() {
         <div className="flex flex-col justify-center bg-white">
         <iframe className="self-center" width="560" height="315" src="https://www.youtube.com/embed/eGUsqIPurNQ?si=Gh36N8C8RQSIT8tR&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           <br/>
-          <p className="flex font-mono w-3/4 md:text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
             Ich denke es ist einfach herzuleiten warum ich Herz an Herz von Blümchen genommen habe.
             Bei dem Song hab ich gesehen was es heißt zu Musik auf Parties Spaß zu haben.
             Und zwar so sehr, dass es auch ansteckend für alle anderen ist. 

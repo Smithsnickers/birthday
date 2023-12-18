@@ -2,8 +2,8 @@ export default function Intro() {
     return (
     <div>
         <div className="flex flex-col mt-10">
-            <span className="flex w-full flex-col items-center w-full font-mono md:text-4xl text-white text-center">            
-            <h1 className="flex font-display sm:text-6xl md:text-9xl bg-clip-text text-white">
+            <span className="flex w-full flex-col items-center w-full font-mono text-white text-center">            
+            <h1 className="flex font-display text-9xl bg-clip-text text-white">
                 Sonne, Mond und Sterne
             </h1>
             9. bis 11. Februar
@@ -15,7 +15,7 @@ export default function Intro() {
         </div>
         <div className="flex justify-center mt-40 bg-white">        
             <div className="flex flex-col w-3/4 mt-10 mb-10">
-                <p className="flex font-mono md:text-2xl bg-clip-text">
+                <p className="flex font-mono text-2xl bg-clip-text">
                     Hallo Menschen,
                     <br/>
                     heute werden wir alle zusammen nach den Sternen greifen. 
