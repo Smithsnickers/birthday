@@ -39,7 +39,6 @@ module.exports = {
 			},
 			animation: {
 				"fade-left": "fade-left 2s ease-in-out forwards",
-				"fade-right": "fade-right 3s ease-in-out forwards",
 			},
 			keyframes: {
 				"fade-left": {

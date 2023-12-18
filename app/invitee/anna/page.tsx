@@ -10,13 +10,14 @@ export default function annaPage() {
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-9xl bg-clip-text text-white">
+            <h1 className="flex font-display text-7xl bg-clip-text text-white">
             &#9733; Anna &#9733;
             </h1>
           </span>
         </div>
-        <div className="flex justify-center mt-40 bg-white">
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+        <Polaroid imagePath={annaImage}></Polaroid>    
+        <div className="flex flex-col justify-center mt-40 bg-white">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Hola,
             <br/>            
             na du Brosine? Ich hoffe Marburg läuft gut und alles was du machen willst läuft glatt. 
@@ -36,12 +37,14 @@ export default function annaPage() {
             Es ist nicht mehr ein "Wir müssen unsere Famiele lieben" blablabla, sondern einfach ein du bist ein cooler Mensch und ich möchte dich weiterhin in meinem Leben haben.
             Jetzt von mir. Wenn du irgendwann irgendwas brauchst, sag bescheid. Ich werd mir auch immer abholen wenn ich was brauche. Selbst wenns nur ein Anruf ist.
           </p>
-          <Polaroid imagePath={annaImage}></Polaroid>          
+                
         </div>
         <div className="flex flex-col justify-center bg-white">
-          <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/N-Tgt5BVmg4?si=motkwMrSoqDhE9a8&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <div className="flex flex-col overflow-hidden">
+            <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/N-Tgt5BVmg4?si=motkwMrSoqDhE9a8&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          </div>
           <br/>
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Für dich habe ich Hometown von Cleopatrick ausgewählt. 
             Why? 
             Cleopatrick ist meine meistgehörte Band 2023 und es vielleicht nicht das worum es in dem Lied geht, aber

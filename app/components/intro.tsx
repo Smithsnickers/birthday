@@ -1,20 +1,20 @@
 export default function Intro() {
     return (
-    <div>
-        <div className="flex flex-col mt-10">
-            <span className="flex w-full flex-col items-center w-full font-mono text-white text-center">            
-            <h1 className="flex font-display text-9xl bg-clip-text text-white">
-                Sonne, Mond und Sterne
-            </h1>
-            9. bis 11. Februar
-            <br/>
-            122 Chemin des Granges Bas
-            <br/>
-            EST 88400, France
+    <div className="flex flex-col">
+        <div className="flex flex-col mt-40">
+            <span className="flex w-full flex-col items-center w-full font-mono md:text-4xl text-white text-center">            
+                <h1 className="flex font-display text-7xl bg-clip-text text-white">
+                    Sonne, Mond und Sterne
+                </h1>
+                9. bis 11. Februar
+                <br/>
+                122 Chemin des Granges Bas
+                <br/>
+                EST 88400, France
             </span>
         </div>
         <div className="flex justify-center mt-40 bg-white">        
-            <div className="flex flex-col w-3/4 mt-10 mb-10">
+            <div className="flex flex-col mt-10 mb-10">
                 <p className="flex font-mono text-2xl bg-clip-text">
                     Hallo Menschen,
                     <br/>
@@ -42,8 +42,8 @@ export default function Intro() {
                     Wenn ihr ready seid, joint der Whatsapp-Gruppe dann kann ich euch auf dem Laufendem halten wenn neue Dinge passieren:
                     // TODO Whatsapp Group
                 </p>
-            <br/>                      
-            </div>        
+            <br/>
+            </div>
         </div>
     </div>
     );

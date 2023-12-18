@@ -4,21 +4,20 @@ import Polaroid from "@/app/components/polaroid";
 import Schedule from "@/app/components/schedule";
 import fineImage from "public/fine.jpg"
 
-//TODO find song
-
 export default function finePage() {
     return (
       <div className="flex flex-col"> 
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-9xl bg-clip-text text-white">
-            &#9733; Fine &#9733;
+            <h1 className="flex font-display text-7xl bg-clip-text text-white">
+             Fine 
             </h1>
           </span>
         </div>
-        <div className="flex justify-center mt-40 bg-white">
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+        <Polaroid imagePath={fineImage}></Polaroid> 
+        <div className="flex flex-col justify-center mt-40 bg-white">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Hola Fine,
             <br/>
             auch du bist eingeladen.
@@ -34,13 +33,14 @@ export default function finePage() {
             Bist du Teil von Philos Leben, wirst du auch Teil meines Lebens sein.
             Du bist jederzeit eingeladen und ich möchte, dass irgendwann aus "Philos Freundin" Fine wird.
             Mit der ich auch eine gute Freundschaft haben kann.
-          </p>
-          <Polaroid imagePath={fineImage}></Polaroid>          
+          </p>                   
         </div>
         <div className="flex flex-col justify-center bg-white">        
-        <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/Dz5s5C6sAt0?si=0o1bgmgHG-PUiE9z&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <div className="flex flex-col overflow-hidden">
+            <iframe className="self-center" height="300rem" width= "480rem"src="https://www.youtube.com/embed/Dz5s5C6sAt0?si=0o1bgmgHG-PUiE9z&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          </div>
           <br/>
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Für dich hab ich Skinny Love von Bon Iver genommen. 
             Ich hab Philo gefragt was für Musik du hörst. 
             Da ist Bon Iver auch gefallen und dann hab ich mein Lieblingsalbum von Bon Iver angeschaltet mich hingelegt und mit freiem Kopf einfach an die Decke geschaut.

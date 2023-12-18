@@ -43,7 +43,7 @@ export default function RootLayout({
           <Button className={`absolute top-5 right-5`}>Logout</Button>
         </form>      
         <Particles
-        className="fixed inset-0 -z-10 animate-fade-in"
+        className="fixed inset-0 -z-10 animate-fade-in"        
         quantity={100}
         />
         {children}

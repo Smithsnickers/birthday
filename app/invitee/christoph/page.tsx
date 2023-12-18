@@ -10,13 +10,14 @@ export default function christophPage() {
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-9xl bg-clip-text text-white">
-            &#9733; Christoph &#9733;
+            <h1 className="flex font-display text-5xl bg-clip-text text-white">
+             Christoph 
             </h1>
           </span>
         </div>
-        <div className="flex justify-center mt-40 bg-white">
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+        <Polaroid imagePath={christophImage}></Polaroid>  
+        <div className="flex flex-col justify-center mt-40 bg-white">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Okay, 
             <br/>
             ich kann gerade kaum sitzen da gerade Blümchen in Schleife läuft. 
@@ -32,13 +33,14 @@ export default function christophPage() {
             Das ist eine der coolsten Sachen die ich gesehen habe und sie zeigt, dass vielleicht nicht alles im Leben den Bach untergeht.
             Dafür hast du meine Bewunderung und ich möchte, dass etwas davon auch auf mich abfärbt. 
             Damit auch ich helfen kann die Welt zu verbessern.
-          </p>
-          <Polaroid imagePath={christophImage}></Polaroid>          
+          </p>                  
         </div>
         <div className="flex flex-col justify-center bg-white">
-        <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/eGUsqIPurNQ?si=Gh36N8C8RQSIT8tR&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <div className="flex flex-col overflow-hidden">
+            <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/eGUsqIPurNQ?si=Gh36N8C8RQSIT8tR&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          </div>
           <br/>
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Ich denke es ist einfach herzuleiten warum ich Herz an Herz von Blümchen genommen habe.
             Bei dem Song hab ich gesehen was es heißt zu Musik auf Parties Spaß zu haben.
             Und zwar so sehr, dass es auch ansteckend für alle anderen ist. 

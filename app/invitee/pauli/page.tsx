@@ -10,13 +10,14 @@ export default function pauliPage() {
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-9xl bg-clip-text text-white">
-            &#9733; Pauli &#9733;
+            <h1 className="flex font-display text-7xl bg-clip-text text-white">
+             Pauli 
             </h1>
           </span>
         </div>
-        <div className="flex justify-center mt-40 bg-white">
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+        <Polaroid imagePath={pauliImage}></Polaroid>  
+        <div className="flex flex-col justify-center mt-40 bg-white">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Hallo :)
             <br/>
             Gerade bin ich ultramüde, also denk ich ich schalt einfach meinen Kopf aus.
@@ -42,13 +43,14 @@ export default function pauliPage() {
             Denn bisher weiß ich doch noch relativ wenig.
             Ich hatte mich am Anfang einfach nicht getraut nach Dingen zu fragen. Du warst einfach eins der zu coolen Kids.
             <br/>            
-          </p>
-          <Polaroid imagePath={pauliImage}></Polaroid>          
+          </p>                  
         </div>
         <div className="flex flex-col justify-center bg-white">
-          <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/k4pXyOSXKtQ?si=Iy7XIUE4dplgqU5-&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <div className="flex flex-col overflow-hidden">
+            <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/k4pXyOSXKtQ?si=Iy7XIUE4dplgqU5-&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          </div>
           <br/>
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Generell war alles eine große Reise und sie hat mich am Ende hierher geführt und am Anfang schienen die Leute unerreichbar zu sein. 
             Coole Kids halt. Nett ohne Grund, coole Persönlichkeit, hören gute Musik und haben Spaß am Leben und stecken andere damit an.
             Das war für mich wie Wunschdenken. Das kann nicht wahr sein.
@@ -86,7 +88,7 @@ export default function pauliPage() {
             Vielleicht kann ich dabei auch die anderen Leute kennenlernen die du kennst und magst.
             Ich habe nämlich die Befürchtung, dass die auch ganz schön cool sind.
             <br/>
-            _______________________________
+            ________________
             <br/>
             Da du gemeint hast, dass du evtl. nicht dabei sein kannst. Hier eine Aufgabe für dich. Ich schick Philo, Anna, Felix und dir eine Playlist zum Befüllen. 
             Damit wir sie im Februar gemeinsam genießen können und ein wenig Pauli mit uns ist auch wenn sie nicht da ist 

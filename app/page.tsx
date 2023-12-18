@@ -66,7 +66,7 @@ export default async function Home() {
   return (
     <div className="flex flex-col justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <div className="flex justify-between">
-        <h1 className="flex w-11/12 font-display text-6xl whitespace-nowrap bg-clip-text text-white animate-fade-left animate-once animate-ease-out left-1">
+        <h1 className="flex w-11/12 font-display sm:text-4xl md:text-6xl xl:text-9xl whitespace-nowrap bg-clip-text text-white animate-fade-left animate-once animate-ease-out left-1">
           Sonne,
           <br/>
           Mond
@@ -77,23 +77,19 @@ export default async function Home() {
         </h1>
 
         <Link
+            className="animate-fade-left animate-once animate-ease-out left-1" 
             key={user?.name}
             href={user?.name && userLink() ? "invitee/"+userLink() : ""}>
           <Image
-            className="flex animate-fade-left animate-once animate-ease-out left-1"      
+            className="flex animate-pulse animate-infinite" 
             src={astronautImage}
             alt="Picture of the author"
             width={410}
             height={661}
-          >            
+          >                      
           </Image>
         </Link>        
       </div>      
-
-      <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
-        </h2>
-      </div>
     </div>
   );
 }

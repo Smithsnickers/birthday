@@ -3,13 +3,13 @@ export default function Schedule() {
     <div className="flex flex-col">
         <div className="flex flex-col mt-40">
             <span className="flex w-full flex-col items-center w-full font-mono md:text-4xl text-white text-center">            
-                <h1 className="flex font-display text-9xl bg-clip-text text-white">
+                <h1 className="flex font-display text-7xl bg-clip-text text-white">
                     Der Plan
                 </h1>
             </span>
         </div>
         <div className="flex justify-center mt-40 bg-white">        
-            <div className="flex flex-col w-3/4 mt-10 mb-10">
+            <div className="flex flex-col mt-10 mb-10">
                 <p className="flex font-mono text-2xl bg-clip-text">
                     An für sich ist der Plan super basic. Wir können am Freitag anreisen und Sonntag abreisen. Wenn ihr was habt was ihr unbedingt machen wollt, cool. sagt mir bescheid.
                     <br/>
@@ -32,10 +32,10 @@ export default function Schedule() {
             <br/>                      
             </div>            
         </div>
-        <div className="flex flex-col bg-white">
+        <div className="flex flex-col bg-white overflow-hidden">
             <iframe                
                 height="300rem"
-                width= "388rem"
+                width= "480rem"
                 className="flex self-center justify-self-center"
                 scrolling="no"
                 src="/location.html">

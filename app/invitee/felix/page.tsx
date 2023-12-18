@@ -4,21 +4,20 @@ import Polaroid from "@/app/components/polaroid";
 import Schedule from "@/app/components/schedule";
 import felixImage from "public/felix.jpg";
 
-//TODO
-
 export default function claudiPage() {
     return (
         <div className="flex flex-col"> 
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-9xl bg-clip-text text-white">
-            &#9733; Felix &#9733;
+            <h1 className="flex font-display text-7xl bg-clip-text text-white">
+             Felix 
             </h1>
           </span>
         </div>
-        <div className="flex justify-center mt-40 bg-white">
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+        <Polaroid imagePath={felixImage}></Polaroid> 
+        <div className="flex flex-col justify-center mt-40 bg-white">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Hello Felix.
             <br/>
             Erst war München solala. Es gab eigentlich ganz viele Nischen. 
@@ -36,13 +35,14 @@ export default function claudiPage() {
             In Berlin wurds dann jedes Mal ein Abenteuer.
             Jeder Besuch wurde dann ein Adrenalin-Trip.
             Welcher mir jetzt auch in meinem Alltag den Mut gegeben hat noch mehr Dinge auszuprobieren.
-          </p>
-          <Polaroid imagePath={felixImage}></Polaroid>          
+          </p>                   
         </div>
         <div className="flex flex-col justify-center bg-white">        
-        <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/vjGqaJD7XhY?si=8WeT2_rxba47yNkF&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <div className="flex flex-col overflow-hidden">
+            <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/vjGqaJD7XhY?si=8WeT2_rxba47yNkF&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          </div>
           <br/>
-          <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
             Ich hab dir The End von Monolink x Acid Pauli gegeben. 
             Weil du für mich einer der Gründe warst mit Musik rumzuprobieren und auch verschiedene Wege auszuprobieren Musik zu hören.
             <br/>
