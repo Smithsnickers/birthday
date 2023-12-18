@@ -33,10 +33,11 @@ export default function Schedule() {
             </div>            
         </div>
         <div className="flex flex-col bg-white">
-            <iframe 
-                height="459px"
-                width= "480px"
+            <iframe                
+                height="300rem"
+                width= "388rem"
                 className="flex self-center justify-self-center"
+                scrolling="no"
                 src="/location.html">
             </iframe>
         </div>            

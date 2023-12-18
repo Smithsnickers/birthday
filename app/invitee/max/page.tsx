@@ -35,7 +35,7 @@ export default function maxPage() {
           <Polaroid imagePath={maxImage}></Polaroid>          
         </div>
         <div className="flex flex-col justify-center bg-white">
-          <iframe className="self-center" width="560" height="315" src="https://www.youtube.com/embed/_JUdbc16aMU?si=7aSsT1qYBy4z5sWn&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/_JUdbc16aMU?si=7aSsT1qYBy4z5sWn&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           <br/>
           <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
             Ich habe für dich Dussmann von Betterov ausgesucht. Warum? 

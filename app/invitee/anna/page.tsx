@@ -39,7 +39,7 @@ export default function annaPage() {
           <Polaroid imagePath={annaImage}></Polaroid>          
         </div>
         <div className="flex flex-col justify-center bg-white">
-          <iframe className="self-center" width="560" height="315" src="https://www.youtube.com/embed/N-Tgt5BVmg4?si=motkwMrSoqDhE9a8&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/N-Tgt5BVmg4?si=motkwMrSoqDhE9a8&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           <br/>
           <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
             Für dich habe ich Hometown von Cleopatrick ausgewählt. 

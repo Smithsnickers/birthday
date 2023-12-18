@@ -60,7 +60,7 @@ export default function claudiPage() {
           <Polaroid imagePath={claudiImage}></Polaroid>          
         </div>
         <div className="flex flex-col justify-center bg-white">
-        <iframe className="self-center" width="560" height="315" src="https://www.youtube.com/embed/JtULNuoS3jg?si=grZ54CRG27ky_m62&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/JtULNuoS3jg?si=grZ54CRG27ky_m62&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           <br/>
           <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
             Ich hab dir Käptn Peng gegeben, weil Käptn Peng schon so ne Nische ist und als dann bei dir Käptn Peng lief war ich einfach nur noch happy.

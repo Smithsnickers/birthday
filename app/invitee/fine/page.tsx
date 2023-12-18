@@ -38,7 +38,7 @@ export default function finePage() {
           <Polaroid imagePath={fineImage}></Polaroid>          
         </div>
         <div className="flex flex-col justify-center bg-white">        
-        <iframe className="self-center" width="560" height="315" src="https://www.youtube.com/embed/Dz5s5C6sAt0?si=0o1bgmgHG-PUiE9z&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe className="self-center" height="300rem" width= "388rem" src="https://www.youtube.com/embed/Dz5s5C6sAt0?si=0o1bgmgHG-PUiE9z&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           <br/>
           <p className="flex font-mono w-3/4 text-2xl bg-clip-text mt-10 mb-10">
             Für dich hab ich Skinny Love von Bon Iver genommen. 

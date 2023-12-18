@@ -66,7 +66,7 @@ export default async function Home() {
   return (
     <div className="flex flex-col justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <div className="flex justify-between">
-        <h1 className="flex w-11/12 font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text text-white animate-fade-left animate-once animate-ease-out left-1">
+        <h1 className="flex w-11/12 font-display text-6xl whitespace-nowrap bg-clip-text text-white animate-fade-left animate-once animate-ease-out left-1">
           Sonne,
           <br/>
           Mond
