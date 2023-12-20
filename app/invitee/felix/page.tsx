@@ -50,7 +50,7 @@ export default function claudiPage() {
             ________________
             <br/>
             Und zuletzt noch eine Aufgabe für dich. Magst du mit Pauli, Anna und Philo an einer Playlist für das Event arbeiten? 
-            // TODO Playlist
+            <a className="font-mono text-2xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-10" href="https://open.spotify.com/playlist/70cJiBg9gQvl4mtG3tkOqO?si=yyR5XIRnTwa62b6Y8esc3Q&pt=d6b3561a5227e9d30254913118f670a2">SMS Spotify</a>
           </p>
         </div>        
         <Schedule></Schedule>

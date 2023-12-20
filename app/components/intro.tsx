@@ -39,9 +39,9 @@ export default function Intro() {
                     <br/>
                     Findet's heraus!
                     <br/>
-                    Wenn ihr ready seid, joint der Whatsapp-Gruppe dann kann ich euch auf dem Laufendem halten wenn neue Dinge passieren:
-                    // TODO Whatsapp Group
+                    Wenn ihr ready seid, joint der Whatsapp-Gruppe dann kann ich euch auf dem Laufendem halten wenn neue Dinge passieren:                    
                 </p>
+                <a className="flex font-mono text-2xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://chat.whatsapp.com/G6JSY1cJmIqHkCfk5mUTGb">SMS Whatsapp</a>
             <br/>
             </div>
         </div>
