@@ -10,14 +10,14 @@ export default function maxPage() {
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-7xl bg-clip-text text-white">
+            <h1 className="flex font-display text-7xl text-white">
              Max 
             </h1>
           </span>
         </div>
         <Polaroid imagePath={maxImage}></Polaroid> 
         <div className="flex flex-col justify-center mt-40 bg-white">
-          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-1xl break-words mt-10 mb-10">
             Heyho Max,
             <br/>
             manchmal passiert es, dass man irgendwo hin geht. 
@@ -37,7 +37,7 @@ export default function maxPage() {
             <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/_JUdbc16aMU?si=7aSsT1qYBy4z5sWn&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </div>
           <br/>
-          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-1xl break-words mt-10 mb-10">
             Ich habe für dich Dussmann von Betterov ausgesucht. Warum? 
             Weil das mein meistgehörter Künstler 2023 ist und du ihn mir gezeigt hast.
           </p>

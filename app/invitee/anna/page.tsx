@@ -10,14 +10,14 @@ export default function annaPage() {
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-7xl bg-clip-text text-white">
+            <h1 className="flex font-display text-7xl break-words text-white">
             &#9733; Anna &#9733;
             </h1>
           </span>
         </div>
         <Polaroid imagePath={annaImage}></Polaroid>    
         <div className="flex flex-col justify-center mt-40 bg-white">
-          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-1xl break-words mt-10 mb-10">
             Hola,
             <br/>            
             na du Brosine? Ich hoffe Marburg läuft gut und alles was du machen willst läuft glatt. 
@@ -44,7 +44,7 @@ export default function annaPage() {
             <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/N-Tgt5BVmg4?si=motkwMrSoqDhE9a8&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </div>
           <br/>
-          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-1xl break-words mt-10 mb-10">
             Für dich habe ich Hometown von Cleopatrick ausgewählt. 
             Why? 
             Cleopatrick ist meine meistgehörte Band 2023 und es vielleicht nicht das worum es in dem Lied geht, aber
@@ -67,9 +67,9 @@ export default function annaPage() {
             <br/>
             ________________
             <br/>
-            Und zuletzt noch eine Aufgabe für dich. Magst du mit Pauli, Felix und Philo an einer Playlist für das Event arbeiten? 
-            <a className="font-mono text-2xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-10" href="https://open.spotify.com/playlist/70cJiBg9gQvl4mtG3tkOqO?si=yyR5XIRnTwa62b6Y8esc3Q&pt=d6b3561a5227e9d30254913118f670a2">SMS Spotify</a>
+            Und zuletzt noch eine Aufgabe für dich. Magst du mit Pauli, Felix und Philo an einer Playlist für das Event arbeiten?             
           </p>
+          <a className="font-mono text-2xl text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-10" href="https://open.spotify.com/playlist/70cJiBg9gQvl4mtG3tkOqO?si=yyR5XIRnTwa62b6Y8esc3Q&pt=d6b3561a5227e9d30254913118f670a2">SMS Spotify</a>
         </div>        
         <Schedule></Schedule>
         <Outro></Outro>

@@ -10,14 +10,14 @@ export default function vibbsPage() {
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-7xl bg-clip-text text-white">
+            <h1 className="flex font-display text-7xl text-white">
             Vibbs
             </h1>
           </span>
         </div>
         <Polaroid imagePath={vibbsImage}></Polaroid>
         <div className="flex flex-col justify-center mt-40 bg-white">
-          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-1xl break-words mt-10 mb-10">
             Hullo,
             <br/>
             ich weiß nicht so wirklich was ich sagen soll.
@@ -40,7 +40,7 @@ export default function vibbsPage() {
             <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/Fc73BWmhyBk?si=YeReR8IdSIuIW8Sw&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </div>          
           <br/>
-          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-1xl break-words mt-10 mb-10">
             Für dich habe ich Friend von Daisy the Great x Sipper. 
             Sipper ist einfach so Kopfmusik. 
             Ein Künstler für melancholische Gefühle. 

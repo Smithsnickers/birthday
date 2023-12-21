@@ -10,14 +10,14 @@ export default function pauliPage() {
         <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
-            <h1 className="flex font-display text-7xl bg-clip-text text-white">
+            <h1 className="flex font-display text-7xl text-white">
              Pauli 
             </h1>
           </span>
         </div>
         <Polaroid imagePath={pauliImage}></Polaroid>  
         <div className="flex flex-col justify-center mt-40 bg-white">
-          <p className="flex font-mono text-2xl bg-clip-text mt-10 mb-10">
+          <p className="flex font-mono text-1xl mt-10 mb-10 break-words">
             Hallo Pauli,
             <br/>
             heute nehm ich den Mundschutz ab und rede frei heraus. 
@@ -49,7 +49,7 @@ export default function pauliPage() {
             Es ist einfach und ich weiß, dass die andere Person auch eine Meinung zu dem Thema hat. 
             Für mich persönlich ist es dann oft schwer auszubrechen und über was anderes zu reden. 
             Es ist wie übers Wetter zu reden.
-            Auch wenn ich eigentlich so Sachen fragen will wie "Was ist deine liebste Kindheitserinnerung ?", <br/>
+            Auch wenn ich eigentlich so Sachen fragen will wie "Was ist deine liebste Kindheitserinnerung?", <br/>
             "Wie lernst du neue Menschen kennen?", <br/>
             "Wie definierst du Freunde?" oder <br/>
             "Hast du diese Woche Zeit?". 
@@ -59,7 +59,7 @@ export default function pauliPage() {
             Es sind Menschen die einen Charakter haben für den ich sie vergöttere und ich das Gefühl habe, 
             dass sie der Welt gut tun und kinderverträglich sind (am Besten noch hypoallergen).
             Leute denen ich nach und nach Facetten meines Charakters gezeigt habe. <br/>
-            Nicht den "Public Relations Arthur", sondern den "Ich bin sehr direkt romantisch und sensibel Arthur". 
+            Nicht den Public-Relations-Arthur, sondern den Ich-bin-sehr-direkt-romantisch-und-sensibel-Arthur". 
             Und die mir das Gefühl geben, dass dieser 2. Arthur zu ihnen und ihnen sogar gefällt.
             <br/>
             <br/>
@@ -78,7 +78,7 @@ export default function pauliPage() {
             <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/k4pXyOSXKtQ?si=Iy7XIUE4dplgqU5-&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </div>
           <br/>
-          <p className="flex font-mono text-2xl bg-clip-text mt-10">
+          <p className="flex font-mono text-1xl mt-10 break-words">
             Endlich angekommen von Casper.
             Generell war mein ganzes Leben bisher eine große Reise und sie hat mich am Ende hierher geführt und am Anfang schienen die Leute unerreichbar zu sein. 
             DU bist eines der coolen Kids. Nett ohne Grund, coole Persönlichkeit, hörst coole Musik und hast Spaß am Leben und steckst andere damit an.
@@ -110,7 +110,7 @@ export default function pauliPage() {
             Damit wir sie im Februar gemeinsam genießen können und ein wenig Pauli mit uns ist auch wenn sie nicht da ist 
             (ich hoffe trotzdem, dass du dabei sein kannst)            
           </p>
-          <a className="font-mono text-2xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-10" href="https://open.spotify.com/playlist/70cJiBg9gQvl4mtG3tkOqO?si=yyR5XIRnTwa62b6Y8esc3Q&pt=d6b3561a5227e9d30254913118f670a2">SMS Spotify</a>
+          <a className="font-mono text-1xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-10" href="https://open.spotify.com/playlist/70cJiBg9gQvl4mtG3tkOqO?si=yyR5XIRnTwa62b6Y8esc3Q&pt=d6b3561a5227e9d30254913118f670a2">SMS Spotify</a>
         </div>        
         <Schedule></Schedule>
         <Outro></Outro>

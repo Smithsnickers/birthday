@@ -8,7 +8,7 @@ export default function Intro() {
                 See you soon, have a good landing
                 <br/>
                 <br/>
-                <h1 className="flex font-display text-4xl bg-clip-text text-white">
+                <h1 className="flex font-display text-4xl text-white">
                     👩‍🚀🤝👨‍🚀🤝🧑‍🚀
                 </h1>                    
             </span>

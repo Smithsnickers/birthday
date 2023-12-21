@@ -3,7 +3,7 @@ export default function Intro() {
     <div className="flex flex-col">
         <div className="flex flex-col mt-40">
             <span className="flex w-full flex-col items-center w-full font-mono md:text-4xl text-white text-center">            
-                <h1 className="flex font-display text-7xl bg-clip-text text-white">
+                <h1 className="flex font-display text-7xl text-white">
                     Sonne, Mond und Sterne
                 </h1>
                 9. bis 11. Februar
@@ -15,7 +15,7 @@ export default function Intro() {
         </div>
         <div className="flex justify-center mt-40 bg-white">        
             <div className="flex flex-col mt-10 mb-10">
-                <p className="flex font-mono text-2xl bg-clip-text">
+                <p className="flex font-mono text-1xl break-words">
                     Hallo Menschen,
                     <br/>
                     heute werden wir alle zusammen nach den Sternen greifen. 
@@ -41,7 +41,7 @@ export default function Intro() {
                     <br/>
                     Wenn ihr ready seid, joint der Whatsapp-Gruppe dann kann ich euch auf dem Laufendem halten wenn neue Dinge passieren:                    
                 </p>
-                <a className="flex font-mono text-2xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://chat.whatsapp.com/G6JSY1cJmIqHkCfk5mUTGb">SMS Whatsapp</a>
+                <a className="flex font-mono text-2xl text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://chat.whatsapp.com/G6JSY1cJmIqHkCfk5mUTGb">SMS Whatsapp</a>
             <br/>
             </div>
         </div>
