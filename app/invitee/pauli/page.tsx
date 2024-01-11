@@ -110,7 +110,7 @@ export default function pauliPage() {
             Damit wir sie im Februar gemeinsam genießen können und ein wenig Pauli mit uns ist auch wenn sie nicht da ist 
             (ich hoffe trotzdem, dass du dabei sein kannst)            
           </p>
-          <a className="font-mono text-1xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-10" href="https://open.spotify.com/playlist/70cJiBg9gQvl4mtG3tkOqO?si=yyR5XIRnTwa62b6Y8esc3Q&pt=d6b3561a5227e9d30254913118f670a2">SMS Spotify</a>
+          <a className="font-mono text-1xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-10" href="https://open.spotify.com/playlist/70cJiBg9gQvl4mtG3tkOqO?si=c665af4614294f82&pt=ba804ae5de532cfbdc19343664ad9235">SMS Spotify</a>
         </div>        
         <Schedule></Schedule>
         <Outro></Outro>

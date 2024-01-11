@@ -52,6 +52,14 @@ export default async function Home() {
     {
       name: 'Felix',
       href: '/felix',
+    },    
+    {
+      name: 'Jurij',
+      href: '/jurij',
+    },    
+    {
+      name: 'Ivan',
+      href: '/ivan',
     },
   ];
 
