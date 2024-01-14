@@ -7,20 +7,48 @@ import pauliImage from "public/pauli.jpg"
 export default function pauliPage() {
     return (
       <div className="flex flex-col"> 
-        <Intro></Intro>
         <div className="flex flex-col mt-40">
           <span className="flex w-full flex-col items-center w-full font-mono text-4xl text-white text-center">            
             <h1 className="flex font-display text-7xl text-white">
              Pauli 
             </h1>
           </span>
-        </div>
-        <Polaroid imagePath={pauliImage}></Polaroid>  
+        </div>        
         <div className="flex flex-col justify-center mt-40 bg-white">
           <p className="flex font-mono text-1xl mt-10 mb-10 break-words">
             Hallo Pauli,
             <br/>
-            heute nehm ich den Mundschutz ab und rede frei heraus. 
+
+            ja... jetzt steht hier ein anderer Text. 
+            Ich hab gerade den alten Text gelesen und musste ein wenig lachen, besonders weil ich gerade wieder in einer komischen Laune bin.
+            Irgendwie bringen diese Launen mich dazu zu schreiben. <br/>
+            Also, hm.. ja. <br/>
+            <br/>
+            Genau. <br/>
+            Ich schreibe den Text hauptsächlich um meinen Kopf zu bereinigen und weil ich ein wenig dumm bin. <br/>
+            Denn in meinem Kopf war das so ein "Ich warte bis mein Geburtstag vorbei ist und du keine schriftlichen Prüfungen mehr hast. Dann belastet dich das nicht so sehr"-Text. 
+            Aber mir fällt auf, dass das vielleicht niemals so richtig eintreffen wird. <br/>
+            Denn, um jetzt mit der Tür ins Haus reinzufallen, ich mag dich und mittlerweile klabüstern sich romantische Gefühle in meine verdrehte Realität.<br/>
+            Und ich denke so ne Aussage ist immer belastend, wenn nicht zwei Leute da ähnliche Gefühle haben. <br/>
+            Deswegen begnüge ich mich fürs erste damit einen Text zu schreiben von dem es die Möglichkeit gibt, dass er gelesen wird, auch wenn diese sehr gering ist.<br/>
+            <br/>
+            Ja, puh. <br/>
+            Ich vermiss dich so ein bisschen und es nagt an mir.<br/>
+            <br/>
+            <br/>
+            Naja, ich mag dich und würde gern mal mit dir was zu zweit machen.<br/>
+            Du bist ein Sonnenschein und wenn ich dich sehe geht's mir immer ein wenig besser.
+            Ich hoffe dir gehts gut und, dass im Studium alles klappt und gleichzeitig Spaß in deinem Leben hast und alle mit deinem Lachen ansteckst.
+            Sag bescheid wenn dir was fehlt, ich eile im Sauseschritt und wenn nicht mir dann jemanden Anderen.<br/>
+            Wenn du eine Dosis schöner Komplimente oder Geschichten haben willst, kannst du gerne einfach das Codewort "Elefantengieskanne" ohne Kontext in ein Gespräch oder in einen Text einbauen.
+            <br/>
+            <br/>
+            <br/>
+            Viele Grüße und bis bald,
+            gez. komischer Typ
+
+
+            {/* heute nehm ich den Mundschutz ab und rede frei heraus. 
             Ich bin gerade in einer sehr komischen Laune. 
             Wie oben erwähnt will ich an meinem Geburtstag Leute einladen die Freunde sind oder von denen ich denke, dass wir es noch werden.
             <br/>
@@ -69,51 +97,10 @@ export default function pauliPage() {
             <br/>
             Ich hoffe, dass aus Quadball Pauli und Quadball Arthur, irgendwann Pauli und Arthur wird. 
             Ja, das ist so mein derzeitiges Kopfgeschehen. 
-            Ich freu mich dich bald wiederzusehen und bin gespannt ob du im Februar kannst oder überhaupt noch Lust hast.
+            Ich freu mich dich bald wiederzusehen und bin gespannt ob du im Februar kannst oder überhaupt noch Lust hast. */}
             <br/>
           </p>                  
-        </div>
-        <div className="flex flex-col justify-center bg-white">
-          <div className="flex flex-col overflow-hidden">
-            <iframe className="self-center" height="300rem" width= "480rem" src="https://www.youtube.com/embed/k4pXyOSXKtQ?si=Iy7XIUE4dplgqU5-&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-          </div>
-          <br/>
-          <p className="flex font-mono text-1xl mt-10 break-words">
-            Endlich angekommen von Casper.
-            Generell war mein ganzes Leben bisher eine große Reise und sie hat mich am Ende hierher geführt und am Anfang schienen die Leute unerreichbar zu sein. 
-            DU bist eines der coolen Kids. Nett ohne Grund, coole Persönlichkeit, hörst coole Musik und hast Spaß am Leben und steckst andere damit an.
-            Mit dir irgendwas zu tun zu haben war am Anfang für mich wie Wunschdenken.
-            Es war wie in der Schule.
-            Du bist in einer Gruppe an Menschen (egal ob Quadball oder mit deinen Non-Quadball-Friends) die aussieht als wären sie angekommen.
-            Im Jetzt.
-            Das war Freiburg am Anfang
-            <br/>
-            Aber Zeit ändert alles.
-            Auch mich.
-            So langsam hab ich das Gefühl, dass auch ich mir Dinge erarbeiten kann. 
-            Erarbeitet habe.
-            Nicht alles ist unerreichbar.
-            Die Tage werden kürzer.
-            Ich bin in einem kleinen Kreis an Menschen den ich mag.
-            Und bald... bin auch ich da.
-            <br/>
-            <br/>
-            <br/>
-            Und ich liebe Musik, aber vielleicht schaffen wir es nächstes Jahr auch über was anderes zu reden 🙈. 
-            Trotzdem freue ich mich auf die Konzerte nächstes Jahr und hoffe, dass ich Teil deiner Gruppe sein kann.
-            Vielleicht kann ich dabei auch die anderen Leute kennenlernen die du kennst und magst.
-            Ich habe nämlich die Befürchtung, dass die auch ganz schön cool sind.
-            <br/>
-            ________________
-            <br/>
-            Da du gemeint hast, dass du evtl. nicht dabei sein kannst. Hier eine Aufgabe für dich. Ich schick Philo, Anna, Felix und dir eine Playlist zum Befüllen. 
-            Damit wir sie im Februar gemeinsam genießen können und ein wenig Pauli mit uns ist auch wenn sie nicht da ist 
-            (ich hoffe trotzdem, dass du dabei sein kannst)            
-          </p>
-          <a className="font-mono text-1xl bg-clip-text text-blue-600 hover:text-blue-800 visited:text-purple-600 mb-10" href="https://open.spotify.com/playlist/70cJiBg9gQvl4mtG3tkOqO?si=c665af4614294f82&pt=ba804ae5de532cfbdc19343664ad9235">SMS Spotify</a>
-        </div>        
-        <Schedule></Schedule>
-        <Outro></Outro>
+        </div>                
       </div>      
     );
   }
