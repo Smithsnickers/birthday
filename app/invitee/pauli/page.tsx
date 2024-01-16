@@ -19,7 +19,11 @@ export default function pauliPage() {
             Hallo Pauli,
             <br/>
 
-            ja... jetzt steht hier ein anderer Text. 
+            sag bescheid, wenn du deinen Text nochmal lesen willst. Nach meinem Geburtstag mach ich hier einen anderen rein.
+
+            :)
+
+            {/* ja... jetzt steht hier ein anderer Text. 
             Ich hab gerade den alten Text gelesen und musste ein wenig lachen, besonders weil ich gerade wieder in einer komischen Laune bin.
             Irgendwie bringen diese Launen mich dazu zu schreiben. <br/>
             Also, hm.. ja. <br/>
@@ -45,7 +49,7 @@ export default function pauliPage() {
             <br/>
             <br/>
             Viele Grüße und bis bald,
-            gez. komischer Typ
+            gez. komischer Typ */}
 
 
             {/* heute nehm ich den Mundschutz ab und rede frei heraus. 
