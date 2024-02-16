@@ -22,6 +22,31 @@ export default function pauliPage() {
             sag bescheid, wenn du deinen Text nochmal lesen willst. Nach meinem Geburtstag mach ich hier einen anderen rein.
 
             :)
+            
+            
+            Haja, willkommen zu einem neuen Text :)  
+            <br/>
+            <br/>
+            was ist hier los? Warum kommen ständig Texte? Hier standen über Zeit so 3 verschiedene Texte <br/>
+            und da du nicht Elefantengieskanne gesagt/geschrieben hast, nehme ich stark an, dass du sie nicht gelesen hast. <br/>
+            Warum standen hier so viele Texte? Weil sich gerade mein Bauch und mein Kopf einen erbitterten Kampf liefern. <br/>
+            Ich wollte es dir auf dem Geburtstag nichts unangenehm machen, deswegen hab ich vorher nichts gesagt. <br/>
+            <br/>
+            Jetzt muss ich dir leider die schlechte Nachricht mitteilen. Mein Bauch hat nicht mehr nur freundschaftliche Gefühle. <br/>
+            Ich würde jetzt am liebsten hier mit so Lobliedern und so schönen Schwurbeleien um mich werfen. <br/>
+            Wenn du sie hören willst kannst du natürlich jetzt Elefantengieskanne sagen oder schreiben. <br/>
+            Aber mein Kopf sagt aktuell "Nein". Eigentlich will ich die Paula erst kennenlernen mal ab und zu zu zweit was machen, mal so Dschungelcamp schauen oder im Freispiel Spiele ausprobieren.<br/>
+            Oder mehr über persönliche und emotionale Dinge quatschen um so zu erfühlen, was in der Pauli so abgeht. <br/>
+            Und mein Kopf und mein Bauch sagen. Ich will zu dem Punkt kommen, dass ich schon alles gehört habe und wir einfach über egal was reden können um Spaß zu haben. <br/>
+            Das ist natürlich nur das was ich will und ich denke dir das über diesen Weg zu sagen ist ein wenig seltsam. <br/>
+            Ich bin gespannt was du denkst. Aber ich kann es auch verstehen wenn das seltsam oder schwer ist. <br/>
+            Es war auf jeden Fall eine schöne Zeit bisher, ich hatte immer Spaß dich zu sehen und oft hat es mir auch die Sprache verschlagen. <br/> 
+            Das klingt fast wie ein Abschied. Aber dem ist nicht so. Du brauchst dir auch keine schlechten Gedanken machen oder dich in irgendwas verdrehen. Egal was du sagst. Alles ist okay.
+            <br/>
+            <br/>
+            Dankeschön für alles
+           
+
 
             {/* ja... jetzt steht hier ein anderer Text. 
             Ich hab gerade den alten Text gelesen und musste ein wenig lachen, besonders weil ich gerade wieder in einer komischen Laune bin.
@@ -50,7 +75,6 @@ export default function pauliPage() {
             <br/>
             Viele Grüße und bis bald,
             gez. komischer Typ */}
-
 
             {/* heute nehm ich den Mundschutz ab und rede frei heraus. 
             Ich bin gerade in einer sehr komischen Laune. 
