@@ -23,8 +23,9 @@ export default function pauliPage() {
 
             :)
             
+            Hi, hättest du nächste Woche ein paar Minuten Zeit?
             
-            Haja, willkommen zu einem neuen Text :)  
+            {/* Haja, willkommen zu einem neuen Text :)  
             <br/>
             <br/>
             was ist hier los? Warum kommen ständig Texte? Hier standen über Zeit so 3 verschiedene Texte <br/>
@@ -44,7 +45,7 @@ export default function pauliPage() {
             Das klingt fast wie ein Abschied. Aber dem ist nicht so. Du brauchst dir auch keine schlechten Gedanken machen oder dich in irgendwas verdrehen. Egal was du sagst. Alles ist okay.
             <br/>
             <br/>
-            Dankeschön für alles
+            Dankeschön für alles */}
            
 
 
